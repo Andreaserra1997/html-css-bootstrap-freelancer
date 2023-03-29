@@ -2,6 +2,10 @@ nav {
     background-color: #2C3E50;
 }
 
+main {
+    padding-top: 56px;
+}
+
 .bg1 {
     background-color: #1ABC9C;
 }
@@ -41,6 +45,29 @@ nav {
 
 .fa-star {
     padding-inline: .3rem;
+}
+
+.square {
+    position: relative;
+}
+
+.hover-img:hover {
+    opacity: .5;
+    background-color: rgba(32, 214, 32, 0.5);
+}
+
+.square:hover i {
+    display: block;
+}
+
+.square i {
+    display: none;
+    position: absolute;
+    font-size: 4rem;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: white;
 }
 
 .square img {
