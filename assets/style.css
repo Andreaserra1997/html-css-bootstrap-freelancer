@@ -51,12 +51,11 @@ main {
     position: relative;
 }
 
-.hover-img:hover {
-    opacity: .5;
-    background-color: rgba(32, 214, 32, 0.5);
+.hover-img {
+    position: relative;
 }
 
-.square:hover i {
+.hover-img:hover i {
     display: block;
 }
 
@@ -68,6 +67,19 @@ main {
     right: 50%;
     transform: translate(50%, -50%);
     color: white;
+}
+
+.green {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+.green:hover {
+    background-color: #499B8C;
+    opacity: .5;
 }
 
 .square img {
