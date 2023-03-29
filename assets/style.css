@@ -1,11 +1,5 @@
-nav .row {
+nav {
     background-color: #2C3E50;
-}
-
-nav .col-4,
-nav .col-2 {
-    height: 90px;
-    border: 1px solid black;
 }
 
 .bg1 {
@@ -16,22 +10,83 @@ nav .col-2 {
     background-color: #3A546D;
 }
 
-.start-content {
-    text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.bg1 img {
+    width: 25%;
 }
 
-.bg2 h2,
-.bg1 h3 {
-    text-align: center;
+@media (min-width: 992px) {
+    .bg1 img {
+        width: 20%;
+    }
 }
 
-.square {
-    height: 100px;
-    background-color: red;
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer .bg3 {
-    text-align: center;
+.line {
+    height: 3px;
+    width: 40px;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.fa-star {
+    padding-inline: .3rem;
+}
+
+.square img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-light {
+    background-color: #1ABC9C;
+}
+
+.btn-center {
+    display: flex;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0;
+}
+
+.form-label {
+    margin: 0;
+}
+
+.send-form {
+    background-color: #1ABC9C;
+}
+
+.send-form:hover {
+    background-color: #1ABC9C;
+}
+
+.icon i {
+    padding: .7rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: .3rem;
+}
+
+.color_bootstrap {
+    color: #1ABC9C;
+}
+
+.footer-copyright {
+    background-color: #2C3E50;
+    font-size: .7rem;
 }

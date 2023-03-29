@@ -1,103 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <nav>
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-4">START BOOTSTRAP</div>
-                <div class="col-2">HAM</div>
+    <nav class="navbar navbar-expand-md" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">START BOOTSTARP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-    <main>
-        <div class="bg1">
+    <main class="pb-3">
+        <div class="bg1 py-4 text-light text-center">
+            <div class="container">
+                <img src="img/avatar.svg" alt="">
+                <h1>START BOOTSTRAP</h1>
+                <div class="star pt-4">
+                    <div class="line white"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line white"></div>
+                </div>
+                <h6 class="pt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center pt-5">PORTFOLIO</h2>
+                <div class="star pt-4">
+                    <div class="line black"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line black"></div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/cabin.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/cake.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/circus.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/game.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/safe.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3">
+                    <div class="square">
+                        <img src="img/submarine.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg1 text-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="start-content">                            
-                            <h1>START BOOTSTRAP</h1>
-                            <div class="star">S</div>
-                            <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+                    <h3 class="text-center pt-4">ABOUT</h3>
+                    <div class="star py-3">
+                        <div class="line white"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="line white"></div>
+                    </div>
+                    <div class="col-10 col-md-5 offset-1">
+                        <div class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                            download includes the complete source files including HTML, CSS, and JavaScript as well as
+                            optional LESS stylesheets for easy customization.</div>
+                    </div>
+                    <div class="col-10 col-md-5 offset-1 pt-3 pt-md-0">
+                        <div class="text-about">Whether you're a student looking to showcase your work, a professional
+                            looking to attract clients, or a graphic artist looking to share your projects, this
+                            template is the perfect starting point!</div>
+                    </div>
+                    <div class="btn-center py-3 justify-content-center">
+                        <button type="button" class="btn btn-light text-light">
+                            <i class="fa-solid fa-download"></i>Download
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center pt-5">CONTACT ME</h2>
+                <div class="star pt-2">
+                    <div class="line black"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line black"></div>
+                </div>
+                <div class="col-10 offset-1">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="firstname">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg2">
-            <div class="container">
-                <div class="row">
-                    <h2>PORTFOLIO</h2>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
-                        <div class="square"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg1">
-            <div class="container">
-                <div class="row">
-                    <h3>ABOUT</h3>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="text-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
-                    </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn send-form text-light">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="bg3">
+        <div class="bg3 text-center text-light py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
-                        <div>Location</div>
+                        <div>LOCATION</div>
                         <div>2215 John Daniel Drive Clark, MO 54243</div>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <div>AROUND THE WEB</div>
-                        <div class="icon">F G T L</div>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-google-plus-g"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <div>ABOUT FREELANCER</div>
-                        <div>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</div>
-                    </div>
-                    <div class="col-12">
-                        <div>Copyright C Your Website 2019</div>
+                        <div>Freelance is a free to use, open source Bootstrap theme created by <span class="color_bootstrap">Start Bootstrap</span>.</div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="text-center text-light py-4 footer-copyright">
+            Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
